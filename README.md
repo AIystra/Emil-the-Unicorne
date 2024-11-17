@@ -23,33 +23,24 @@ Un bot Discord intelligent capable d'analyser et de participer naturellement aux
 
 ```bash
 # Cloner le repository
-git clone https://github.com/VotreUsername/discord-ai-bot
+git clone https://github.com/AIystra/Emil-the-Unicorne
 
-# Installer les dépendances
+# Installer les dépendances (à venir)
 pip install -r requirements.txt
 
-# Configurer les variables d'environnement
+# Configurer les variables d'environnement (à venir)
 cp .env.example .env
 # Éditer .env avec vos configurations
 ```
 
-## ⚙️ Configuration
-
-1. Créez une application sur le [Portail Développeur Discord](https://discord.com/developers/applications)
-2. Configurez le fichier `.env` :
-```env
-DISCORD_TOKEN=votre_token_discord
-MODEL_PATH=chemin_vers_votre_modele_local
-```
-
 ## 🚀 Utilisation
 
-1. Lancez le bot :
-```bash
-python main.py
-```
+1. Configurer le script avec les informations adapté :
+- TOKEN
+- CHANNEL_ID
+- IA LOCAL HOST
 
-2. Le bot analysera automatiquement les conversations et répondra de manière appropriée
+3. Le bot analysera automatiquement les conversations et répondra de manière appropriée
 
 ## 📝 Fonctionnement
 
@@ -67,9 +58,7 @@ Le bot utilise deux systèmes de prompts principaux :
 
 ## 🔧 Personnalisation
 
-Vous pouvez personnaliser le comportement du bot en modifiant les prompts dans `config/prompts/` :
-- `analyzer_prompt.txt` : Règles d'analyse des conversations
-- `response_prompt.txt` : Configuration de la personnalité et du style de réponse
+- Vous pouvez personnaliser le comportement du bot en modifiant les prompts et la température :
 
 ## 📈 Exemples d'Utilisation
 
@@ -101,7 +90,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 
 Distribué sous la licence MIT. Voir `LICENSE` pour plus d'informations.
 
-## 🙏 Remerciements
+## 🙏 Remerciements à
 
-- Discord.py pour leur excellente API
+- Moi même
 - La communauté des modèles de langage open source
