@@ -1,5 +1,5 @@
 # Emil-the-Unicorne 🦄
-An intelligent Discord bot using local language patterns to naturally analyze and participate in conversations. Able to understand context, manage ongoing discussions and generate appropriate responses for you Discord Account with the channel of your choice.
+An intelligent Discord bot using local language patterns to naturally analyze and participate in conversations. Able to understand context, manage ongoing discussions and generate appropriate responses for you Discord Account with the channel of your choice. (en anglais comme ça tout le monde peut comprendre :D)
 # Discord AI Conversation Bot
 
 Un bot Discord intelligent capable d'analyser et de participer naturellement aux conversations en utilisant des modèles de langage locaux.
